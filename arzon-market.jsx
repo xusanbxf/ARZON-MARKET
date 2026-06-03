@@ -26,11 +26,7 @@ export default function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    if (SPREADSHEET_ID === "YOUR_GOOGLE_SHEET_ID_HERE") {
-      setLoading(false);
-      return;
-    }
+
     fetch(SHEET_URL)
       .then(res => res.text())
       .then(text => {
