@@ -4,8 +4,8 @@ const P = { HOME: "home", SHOP: "shop", PRODUCT: "product", CART: "cart", ORDER:
 const DELIVERY_FEE = 35000;
 
 // ХАВФСИЗЛИК УЧУН ТОКЕНЛАР СОХТАЛАШТИРИЛДИ (GITHUB УЧУН ХАВФСИЗ)
-const BOT_TOKEN = "0000000000:AAFakeTokenForSecurityPurposes12345";
-const CHAT_ID = "111111111";
+const BOT_TOKEN = "8754873465:AAFezETbX84Cwnj_lmxmBpSluIA8xG1KSZM";
+const CHAT_ID = "627785337";
 
 function serviceFee(price) {
   const steps = Math.floor(price / 100000);
